@@ -6,4 +6,10 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="UiPathDesktopAutomationDemoPractice\**" />
+    <EmbeddedResource Remove="UiPathDesktopAutomationDemoPractice\**" />
+    <None Remove="UiPathDesktopAutomationDemoPractice\**" />
+  </ItemGroup>
+
 </Project>
